@@ -13,8 +13,8 @@ jobs:
       - name: Build
         uses: dabao1955/kernel_build_action@main
         with:
-          kernel-url: https://github.com/SavedByLight/android_kernel_samsung_a04s
-          kernel-branch: main
+          kernel-url: https://github.com/nestans/android_kernel_a047f_eur
+          kernel-branch: sus
           config: exynos850-a04sxx_defconfig
           arch: arm64
           aosp-gcc: true
