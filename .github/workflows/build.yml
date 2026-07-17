@@ -13,7 +13,7 @@ jobs:
       - name: Build
         uses: dabao1955/kernel_build_action@main
         with:
-          kernel-url: https://github.com/a04s-dev/android_kernel_samsung_a047
+          kernel-url: https://gitlab.com/sudono/android_kernel_samsung_a047.git
           kernel-branch: fourteen
           config: a047f_defconfig
           arch: arm64
