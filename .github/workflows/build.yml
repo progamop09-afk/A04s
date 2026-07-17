@@ -17,6 +17,7 @@ jobs:
           kernel-branch: fourteen
           config: a047f_defconfig
           arch: arm64
+          submodule: false
           aosp-gcc: true
           aosp-clang: false
           gnd-clang: true
