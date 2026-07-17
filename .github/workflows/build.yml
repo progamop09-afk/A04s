@@ -15,7 +15,7 @@ jobs:
         with:
           kernel-url: https://github.com/SavedByLight/android_kernel_samsung_a04s
           kernel-branch: main
-          config: a047f_defconfig
+          config: a047_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: false
