@@ -18,7 +18,7 @@ jobs:
           config: exynos850-a04sxx_defconfig
           arch: arm64
           aosp-gcc: true
-          aosp-clang: false
-          gnd-clang: true
+          aosp-clang: true
+          aosp-clang-version: r450784d
           ksu: true
           ksu-version: main
