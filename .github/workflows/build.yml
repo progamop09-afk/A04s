@@ -18,6 +18,7 @@ jobs:
           config: a047f_defconfig
           arch: arm64
           aosp-gcc: true
-          aosp-clang: true
+          aosp-clang: false
+          gnd-clang: true
           ksu: true
           ksu-version: main
